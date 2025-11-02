@@ -1,0 +1,22 @@
+name: artisan_connect
+description: Artisan Connect App
+
+publish_to: 'none'
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^4.2.0
+  cloud_firestore: ^6.0.3
+  uuid: ^4.5.1
+  flutter_lints: ^6.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
